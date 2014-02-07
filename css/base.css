@@ -1,0 +1,33 @@
+/* CSS Document */
+/* Base Generic Styleset for Websites - CN July 07 */
+
+html {
+	/*overflow: hidden;*/
+	}
+
+body, h1, h2, h3, h4, h5 {
+	font:	11px Arial, Helvetica, sans-serif;
+	padding:0px;
+	margin:0px;
+	}
+	
+a {
+	text-decoration:none;
+	font-weight:normal;
+	border:0;
+	}
+
+img {
+	border:0;
+	}
+	
+div, ol, ul, li, form {
+	margin:0;
+	padding:0;
+	}
+	
+	
+div {
+	/*border:1px solid #000000; /* for layout testing only */
+	}	
+	

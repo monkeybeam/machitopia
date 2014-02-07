@@ -1,0 +1,187 @@
+/* CSS Document */
+
+/** HOME **/
+
+/** See home.css **/
+
+.descriptionContainers {
+	border-bottom: 1px solid #C9DEE4;
+	padding: 20px 20px 18px 0;
+	overflow:auto;
+	vertical-align:middle;
+	}
+
+.packageName, .packagePrice {
+	padding:0;
+	width:105px;
+	float:left;
+	}
+	
+.packageOverview {
+	padding:0;
+	width:215px;
+	float:left; 
+	}
+	
+.packageOverview select {
+	color:#1B758F;
+	font-size:11px;
+	padding:0;
+	width:195px;
+	}
+	
+.packageSetup {
+	/*color:#1B758F;
+	font-size:14px;*/
+	padding:0;
+	width:94px;
+	float:left; 
+	text-align:right;
+	}
+	
+.platformTxtContainer {
+	 float:left; 
+	 width: 403px
+	 }
+	 	
+.elementsContainers {
+	width: 100%;
+	padding: 20px 0;
+	overflow:auto;
+	background:url(../img/global/modulelgbg.jpg) no-repeat top left;
+	margin:20px 0 0;
+	}
+	
+.elementsContainerItems {
+	width:192px;
+	float:left;
+	padding: 0 10px 0 55px;
+	}
+	
+.orderButtn {
+	margin: 5px 0;
+	}
+	
+.featureList {
+	margin:-8px 15px 30px -28px;
+	padding: 0 0 0 5px;
+	}
+	
+	
+
+.clientTitle {
+	color:#676767;
+	font-size:14px;
+	padding: 0 0 3px 0;
+	text-transform:uppercase;
+	}
+		
+A.website {
+	color:#76B6C9;
+	font-size:inherit;
+	text-decoration:none;
+	font-weight:bold;
+	}
+		
+A.website:hover {
+	text-decoration:underline;
+	}
+	
+.tnBoxes {
+	width:25px; 
+	height:25px; 
+	border:1px #898989 solid; 
+	margin:0 9px 0 0;
+	float:left;
+	display:block;
+	cursor:pointer;
+	}
+	
+.tnBoxesRon1 {
+	background: #767676;
+	}
+
+.tnBoxesRon2 {
+	background: #898989;
+	}
+	
+.tnBoxesRon3 {
+	background: #A1A1A1;
+	}
+	
+.tnBoxesRon4 {
+	background: #B7B7B7;
+	}
+	
+.tnBoxesRon5 {
+	background: #CCCCCC;
+	}
+	
+.tnBoxesRon6 {
+	background: #D7D7D7;
+	}
+	
+.tnBoxesRon7 {
+	background: #E1E1E1;
+	}
+
+	
+.separatorLine {
+	border-bottom: 1px solid #C8C8C8;
+	padding: 0px 0px 18px 0;
+	overflow:auto;
+	/*vertical-align:middle;*/
+	}
+		
+/** Company **/
+
+#companyBody {
+	background:url(../img/companybg.png);
+	}
+
+/*.CompanySectionTitle, CompanySectionTitle h1 {
+	padding:0;
+	text-align:right;
+	}*/
+		
+.companyPageTitle {
+	color:#676767;
+	font-size:14px;
+	padding: 0;
+	}
+	
+.rosterColumns {
+	float: left;
+	margin: 0 20px 0 0;
+	width: 160px;
+	}
+	
+.sitemapBullets {
+	margin-top:0px;
+	margin-bottom:0px;
+	padding-top:0px;
+	padding-bottom:0px;
+	}
+	
+/** Portfolio **/
+
+.screenshots {
+	float: left;
+	margin: 0 47px 12px 0;
+	width: 121px;
+	text-align: center;	
+	}
+	
+.portfolioBars li {
+	height:12px; 
+	margin:0 0 2px 0;
+	display: block;
+	padding: 1px 0 2px 6px;
+	}
+	
+.portfolioBars li a {
+	font-size:10px;
+	text-transform:uppercase;
+	text-decoration: none;
+	color: #676767;
+	}

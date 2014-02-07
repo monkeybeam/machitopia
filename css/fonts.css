@@ -1,0 +1,100 @@
+/* CSS Document */
+
+/* FONTS */
+
+.caps {
+	text-transform:uppercase;
+}
+
+.smText {
+	color:#8D837A;
+	font-size: 10px;
+	line-height:150%;
+	text-align:justify;
+	}
+		
+.mdText {
+	color:#8D837A;
+	line-height:16px;
+	text-align:justify;
+	}
+	
+A.mdText, A.mdText2 {
+	color:#787878;
+	text-decoration:underline;
+	}
+	
+.mdText2 {
+	color:#1B758F;
+	}
+	
+A.mdText:hover {
+	color:#787878;
+	text-decoration:none;
+	}
+		
+.lgText {
+	color:#8D837A;
+	font-size: 12px;
+	line-height:130%;
+	text-align:left;
+	}
+	
+.lgText2, .lgText2 h1 {
+	color:#1B758F;
+	font-size:14px;
+	text-align:left;
+	}
+	
+.lgText2 h1 {
+	text-align:right;
+	}
+	
+.lgText3 {
+	color:#FFFFFF;
+	font-size:13px;
+	text-align:left;
+	}
+		
+.capitonText {
+	color:#676767;
+	font-size: 10px;
+	line-height:150%;
+	}
+			
+img.mainTagline {
+	margin:8px 0 35px 0;
+	}
+	
+.packageNameText, .packageNameText A, .contentTitles {
+	color:#8D837A;
+	font-size:14px;
+	line-height: 20px;
+	font-weight:bold;
+	text-decoration: none;
+	text-transform:lowercase;
+	}
+	
+contentTitles A {
+	color:#1B758F;
+	}
+	
+.packageNameText A:hover {
+	color:#A7A19B;
+	}
+	
+.packageNameTextAlt {
+	color:#1B758F;
+	font-weight:normal;
+	}
+
+.packageNameTextLg {
+	color:#1B758F;
+	font-weight:normal;
+	}
+	
+.lgMission {
+	color:#71C8EF;
+	font-size:14px;
+	font-weight: bold;
+	}

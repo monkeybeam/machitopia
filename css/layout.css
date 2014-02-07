@@ -1,0 +1,356 @@
+/* CSS Document */
+
+html, body {
+	text-align:center;
+	background:#fff;
+	width:100%;
+	/*height:100%;*/
+	}
+		
+a, noscript {
+	color:#1B758F;
+	text-decoration:none;
+	}
+		
+a:hover {
+	text-decoration:underline;
+	}
+		
+div.clear {
+	clear:both;
+	}
+		
+ul {
+	list-style:none;
+	}
+	
+h3 {
+	display: none;
+	}
+	
+#container {
+	width:900px;
+	margin:0 auto 15px auto;
+	text-align:left;
+	background:#FFFFFF;
+	overflow:auto;
+	}
+	
+#headContentLeft {
+	width:435px;
+	margin:44px 0 0 25px;
+	padding:0;
+	float:left;
+	}
+		
+/* *** fix spacing issue in IE - this one is hidden from IE** */	
+html>body #headContentLeft {
+	margin:44px 0 0 49px;
+	}
+	
+#headContentRight {
+	width:375px;
+	margin:44px 0 28px 0;
+	float:left;
+	}	
+		
+.ContentLeft {
+	clear: both;
+	width:224px;
+	margin:0 35px 0 25px;
+	float:left;
+	/*text-align:right;*/
+	}
+		
+/* *** fix spacing issue in IE - this one is hidden from IE** */	
+html>body .ContentLeft {
+	margin:0 35px 0 49px;
+	}
+	
+.ContentRight {
+	width:540px;
+	padding:0px;
+	float:left;
+	text-align:justify;
+	}	
+	
+	.ContentRight1 {
+		float:left; 
+		width:265px;
+		}
+	
+	.ContentRight2 {
+		float:left; 
+		width: 245px; 
+		margin:0 0 0 30px;
+		}
+		
+#lowerContent {
+	clear:both;
+	overflow:auto;
+	width:900px;
+	}
+		
+#lowerContentLeft {
+	clear:both;
+	margin: 0 0 0 49px;
+	}
+	
+#lowerContentRight {
+	clear:both;
+	margin: 0 0 0 49px;
+	}
+
+/* #contentfooter {
+	font-size:90%;
+	position:relative;
+	bottom: 0px;
+	left:0px;
+	width:80%;
+	margin:0 auto 10px auto;
+	clear: both;
+	padding: 5px;
+	background-image: url(../img/global/trans.gif);
+	}*/
+	
+#contentfooter {
+	font-size:10px;
+	width:80%;
+	margin:0 auto 10px auto;
+	clear: both;
+	padding: 5px;
+	background-image: url(../img/global/trans.gif);
+	}
+
+/* *** fix spacing issue in IE - this one is hidden from IE** */
+html>body #contentfooter {
+	
+	
+	}	
+
+	
+#contentfooter A.corporate {
+	color:#000000;
+	text-decoration:none;
+	}
+	
+	
+
+/* NAVIGATION */
+		
+#navDept {
+	margin:28px 0 0;
+	list-style:none;
+	}
+		
+#navDept li {
+	display:inline;
+	padding:0 38px 0 0;
+	}
+		
+#navMain {
+	margin:103px 0 0;
+	list-style:none;
+	}
+		
+#navMain li {
+	display:inline;
+	padding:0 6px 0 0;
+	}
+		
+.separator {
+	margin: 0 0 0 6px;
+	}
+		
+#navSection {
+	margin:28px 0 0 0;
+	padding:0 0 26px 0;
+	list-style:none;
+	width: 400px;
+	float:left;
+	}
+		
+#navSection li {
+	display:inline;
+	padding:0 21px 0 0;
+	}
+		
+#navSection li a { 
+	color: #676767;
+	text-decoration:none;
+	font-size:10px;
+	}
+		
+#navSection li a:hover { 
+	color:#1B758F;
+	text-decoration:underline;
+	}
+	
+		
+/* Drop Down Menu */
+
+.dropmenu {
+	position:absolute;
+	margin: 4px 0 0 1px;
+	top: 200px;
+	width: 133px;
+	/*border-left: 1px solid #1B758F;*/
+	border-left: 1px solid #C0DEE7;
+	z-index:100;
+	visibility: hidden;
+	background-color:#FFFFFF;
+	}
+		
+.dropmenu li {
+	list-style-type: none;
+	text-align: left; /*set to left, center, or right to align the menu as desired*/		
+	}
+
+.dropmenu a {
+	width: auto;
+	display: block;
+	border: 0 solid #cccccc;
+	padding: 1px 15px 2px 4px;
+	color: #676767;
+	text-decoration:none;
+	}
+
+* html .dropmenu a { /*IE only*/
+	width: 100%;
+	}
+
+.dropmenu a:hover { 
+	background-color: #E1F2F7;
+	color:#1B758F;
+	}
+		
+/* FORMS */
+
+		
+/*form fieldset {
+  	clear: both;
+  	font-size: 100%;
+ 	border-color: #000000;
+ 	border-width: 1px 0 0 0;
+  	border-style: solid none none none;
+  	padding: 10px;
+  	margin: 0 0 0 0;
+	}*/
+
+/*form fieldset legend {
+  	margin: 0 0 0 0;
+ 	padding: 0 5px;
+	}*/
+		
+/*textarea {
+  	overflow: auto;
+	}*/
+
+form div {
+  	clear: left;
+  	display: inline;
+  	width: 430px;
+	}
+
+/* *** fix spacing issue in IE - this one is hidden from IE** */
+html>body form div {
+  	margin: 2px 0 0 0;
+	display: block;
+	}
+	
+form fieldset {
+	display: inline;
+  	padding: 10px 0px;
+  	border-width: 1px 0 0 0;
+  	border-color:#CACAC7;
+  	border-style:solid none none none;
+	}
+	
+form fieldset legend {
+	color:#8D837A;
+	font-size: 12px;
+	font-weight:bold;
+	display: inline;
+  	/*padding: 4px;*/
+	}
+		
+form div label {
+  	color:#8D837A;
+	font-size: 11px;
+	display: inline;
+  	width: 130px;
+  	padding: 0px 3px 0px 0;
+	float:left;
+	text-align:right;
+	}
+
+/* *** fix spacing issue in IE - this one is hidden from IE** */	
+html>body form div label {
+	padding: 0px 3px 5px 0;
+	display: block;
+	}
+		
+form input, select, textarea {
+  	font-family: Arial, sans-serif;
+  	font-size: 11px;
+  	width: 133px;
+  	padding: 1px 3px;
+  	margin: 0;
+	color: #1B758F;
+	border: 1px #CACAC7 solid;
+	float:left;
+	}	
+	
+form select {
+  	width: 145px;
+	}
+	
+form textarea {
+	width:400px;
+	}
+	
+form input.radio {
+	width:20px;
+	}
+		
+form div .submitArrow {
+	border:0;
+	margin:3px 15px;
+	float:left;
+	width: 9px;
+	}
+	
+/* OTHER LAYOUT ITEMS */
+
+.logo {
+	font-size: 14px;
+	color:#676767;
+	font-weight:bold;
+	}
+	
+#elementIcon {
+	/*float:right;*/
+	margin-top:3px;
+	font-size: 14px;
+	color:#676767;
+	font-weight:bold;
+	}
+	
+#tollFreePh {
+	margin:28px 0 0 0;
+	float: right;
+	font-weight: bold;
+	}
+	
+.morelink {
+	background:url(../img/morearrow.gif) no-repeat top right; 
+	cursor:pointer; 
+	/*width:65px; */
+	height:20px; 
+	/*float:left;*/
+	}
+	
+ul.bullet {
+	list-style:circle; 
+	padding:12px 0 12px 15px;
+	}

@@ -1,0 +1,43 @@
+/* CSS Document */
+
+html, body {
+	overflow: hidden;
+	height:100%;
+	}
+	
+#homeBody {
+	background:url(../img/main_bg.png) no-repeat top left;
+	}
+
+#flash {
+	}
+		
+#homeContainer {
+	width:100%;
+	text-align: center;
+	height:96%;
+	margin:0 auto 0px auto;
+	}
+		
+#container {
+	width:900px;
+	height:369px;
+	overflow:visible;
+	margin:0 auto 0px auto;
+	background: none;
+	}
+		
+/* *** fix spacing issue in IE - this one is hidden from IE** */	
+html>body #container {
+	height:370px;
+	}
+	
+#flashContainer {
+	clear:both;
+	}
+	
+#contentfooter {
+	position:relative;
+	bottom: 0px;
+	left:0px;
+	}
