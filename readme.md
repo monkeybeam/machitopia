@@ -1,4 +1,4 @@
-Project Machitopia Website
+Project: Machitopia Website
 
 Description: HTML, CSS and Javascript codes and assets (images plus videos) for the development of machitopia.com website.  
 
